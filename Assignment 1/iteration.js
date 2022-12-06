@@ -5,7 +5,7 @@ function fibs(n) {
   } else if (n === 2) {
     return arr;
   }
-  else if (n === 0) {
+  else if (n <= 0) {
     return 'Error'
   }
   for (let i = 2; i < n; i++) {
@@ -13,4 +13,4 @@ function fibs(n) {
   }
   return arr;
 };
-console.log(fibs(5))
+console.log(fibs(-8))
