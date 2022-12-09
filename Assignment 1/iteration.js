@@ -13,4 +13,3 @@ function fibs(n) {
   }
   return arr;
 };
-console.log(fibs(-8))
